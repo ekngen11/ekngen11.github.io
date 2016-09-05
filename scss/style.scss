@@ -1,0 +1,153 @@
+body{font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif}
+
+
+nav {
+    ul {
+        a {
+            color: #444;
+        }
+    }
+    .brand-logo {
+        color: #444;
+    }
+}
+p {
+    line-height: 2em;
+}
+.button-collapse {
+    color: #26a69a;
+}
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255,255,255,.9);
+}
+#index-banner {
+    min-height: 380px;
+    line-height: 0;
+    height: 700px;
+    color: rgba(255,255,255,.9);
+}
+.parallax-container {
+    .section {
+        width: 100%;
+    }
+}
+.icon-block {
+    padding: 0 15px;
+    .material-icons {
+        font-size: inherit;
+    }
+}
+footer {
+    .page-footer {
+        margin: 0;
+    }
+}
+.card {
+    transition: all 0.2s ease;
+    :hover {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+        -webkit-animation: '';
+        -moz-animation: none;
+        -ms-animation: '';
+        -o-animation: '';
+        animation: '';
+    }
+}
+.interest {
+    transition: all 0.2s ease;
+    :hover {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+        -webkit-animation: '';
+        -moz-animation: none;
+        -ms-animation: '';
+        -o-animation: '';
+        animation: '';
+    }
+}
+.skills {
+    li {
+        line-height: 2.0em;
+        :hover {
+            -webkit-transform: scale(1.1);
+            -moz-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            -o-transform: scale(1.1);
+            transform: scale(1.1);
+            -webkit-animation: '';
+            -moz-animation: none;
+            -ms-animation: '';
+            -o-animation: '';
+            animation: '';
+            background: #F2F2F2;
+        }
+    }
+}
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    color: #00e676;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.glyphicon-star {
+    :before {
+        content: "\e006";
+    }
+}
+.glyphicon-star-empty {
+    :before {
+        content: "\e007";
+    }
+}
+.ability-level {
+    float: right;
+    .glyphicon {
+        font-size: 14px;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner {
+    .section {
+      top: 0;
+    }
+  }
+}
+@media only screen and (max-width : 992px) {
+  .parallax-container {
+    .section {
+      position: absolute;
+      top: 40%;
+    }
+  }
+  #index-banner {
+    .section {
+      top: 10%;
+    }
+  }
+}
